@@ -1,0 +1,11 @@
+Interview Questions
+Logical Thinking
+- Count numbers in a digit
+- Reverse a number
+- Armstrong number	
+- Prime Number
+- Print Prime Numbers in a given interval  (400, 1000)
+- Print Fibonacci Series - 0,1,1,2,3,5,8,13,21,34....
+- LCM and HCF
+- Strong Number
+
