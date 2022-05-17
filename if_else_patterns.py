@@ -58,6 +58,16 @@ print("=" * 20)
 10001
 11111
 '''
+rows = 5
+cols = 5
+for i in range(1, rows+1):
+    for j in range(1, cols+1):
+        if i == 1 or i == rows or j == 1 or j == cols:
+            print('1', end='')
+        else:
+            print('0', end='')
+    print()
+
 
 print("=" * 20)
 
@@ -68,6 +78,16 @@ print("=" * 20)
 11111
 11111
 '''
+rows = 7
+cols = 7
+for i in range(rows):
+    for j in range(cols):
+        if rows // 2 == i and cols // 2 == j:
+            print('0', end='')
+        else:
+            print('1', end='')
+    print()
+
 
 print("=" * 20)
 
@@ -78,16 +98,17 @@ print("=" * 20)
 11011
 11011
 '''
+rows = 7
+cols = 7
+for i in range(rows):
+    for j in range(cols):
+        if rows // 2 == i or cols // 2 == j:
+            print('0', end='')
+        else:
+            print('1', end='')
+    print()
 
 print("=" * 20)
-'''
-1
-131
-13531
-1357531
-135797531
-'''
-
 
 
 
