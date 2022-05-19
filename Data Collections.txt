@@ -1,0 +1,18 @@
+Data Collections
+- Strings
+  - collection of text, words, para, sentence...
+  - represented by "...", '...',  """...""", '''...'''
+  - strings are immutable (which cannot be modified)
+- List
+- Tuples
+- Dictionary
+- Set and Frozen Set
+
+Strings - internally string is a character array
+- Indexing and Slicing
+- Methods
+
+
+
+
+
