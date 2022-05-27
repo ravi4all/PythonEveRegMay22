@@ -21,6 +21,8 @@ print("Emp Name : {}, Emp Dept : {}, Emp Salary : {}".format(emp_name,
                                                              emp_dept,
                                                              emp_sal))
 
+print("*" * 50)
+
 totalSalary = 0
 for i in range(len(data["names"])):
     if data["dept"][i] == "IT":
@@ -29,6 +31,22 @@ count = data["dept"].count("IT")
 avg = totalSalary / count
 print("Average Salary of IT :",avg)
 
+print("*" * 50)
 
+for i in range(len(data["names"])):
+    if data["dept"][i] == "Sales":
+        print(data["names"][i], data["dept"][i])
 
+print("*" * 50)
+
+print("Salary Before Increment...")
+for i in range(len(data["names"])):
+    print("Name : {}, Salary : {}".format(data["names"][i], data["salary"][i]))
+
+for i in range(len(data["names"])):
+    data["salary"][i] += 5000
+
+print("Salary After Increment...")
+for i in range(len(data["names"])):
+    print("Name : {}, Salary : {}".format(data["names"][i], data["salary"][i]))
 
