@@ -1,6 +1,6 @@
-def calc(x,y):
-    z = x + y
-    print("Sum is",z)
+def calc(x,y,opr):
+    expression = x + opr + y
+    print(expression)
 
 
 print("""
@@ -11,8 +11,14 @@ print("""
 """)
 
 choice = int(input("Enter your choice : 1/2/3/4 : "))
-fnum = int(input("Enter first number : "))
-snum = int(input("Enter second number : "))
+fnum = input("Enter first number : ")
+snum = input("Enter second number : ")
 
-# operations = [add, sub, div, mul]
-# operations[choice - 1](fnum, snum)
+operations = {
+    1 : "+",
+    2 : "-",
+    3 : "/",
+    4 : "*"
+}
+opr = operations.get(choice)
+calc(fnum, snum, opr)
