@@ -15,5 +15,11 @@ def wrapper():
     # we can call add and sub only inside wrapper function
     # add()
     # sub()
+    return add, sub
 
-wrapper()
+# fnum = wrapper()
+# fnum()
+
+operations = wrapper()
+operations[0]()
+operations[1]()
