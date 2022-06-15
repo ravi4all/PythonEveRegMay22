@@ -1,0 +1,20 @@
+File Handling
+- Read Write Operations on File
+Steps to perform file handling:
+- Open - here we need to tell python the mode of file
+- Read/Write
+- Close
+2 types of file
+- text
+- binary - images, audio, video
+
+Modes
+		    Text		Binary
+- read		'r'		    'rb'
+- write		'w'/'x'		'wb'/'xb'
+- append	'a'		    'ab'
+-------------------------------------------------------------
+csv - comma separated values
+openpyxl
+pypdf
+pydoc
